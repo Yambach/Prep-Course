@@ -119,8 +119,10 @@ function esImpar(num) {
   // Tu código:
   if ((num % 2) === 0) {
     return false;
+  if ((num % 3) === 0) {
+    return true;
   }
-  return true;
+  return false;
 }
 
 function elevarAlCuadrado(num) {
